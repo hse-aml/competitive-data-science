@@ -21,7 +21,7 @@ def almostEqual(x, y):
 
 class Grader(object):
     def __init__(self):
-        self.submission_page = 'https://www.coursera.org/api/onDemandProgrammingScriptSubmissions.v1'
+        self.submission_page = 'https://hub.coursera-apps.org/api/onDemandProgrammingScriptSubmissions.v1'
         self.assignment_key = 'Lhay-55JEeet3xIBvGMumA'
         self.parts = OrderedDict([
                         ('EyiFH', 'best_alpha'),
